@@ -1,0 +1,4 @@
+f1_cache/
+f1_data.db
+__pycache__/
+.ipynb_checkpoints/
