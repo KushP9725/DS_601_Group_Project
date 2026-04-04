@@ -1,0 +1,50 @@
+Goal for the code 
+Section 1:Aarnav
+Section 2:
+Section 3:
+Section 4:
+Section 5:
+Section 6:Aarnav
+
+Section 1 & 6: Data Cleaning & Visualizations (same person)
+
+Clean the FastF1 lap data
+Filter out outlier laps (safety car, pit laps, in/out laps)
+Standardize compound names and race names across all tracks
+Lap time degradation curves per compound
+Pit stop time loss comparisons across tracks
+Safety car probability chart per track
+Optimal strategy output chart (stint lengths, compounds, total time)
+Strategy comparison chart (1 stop vs 2 stop vs 3 stop)
+
+Section 2: Compound & Degradation Analysis
+
+Calculate baseline lap time per compound per track
+Calculate degradation rate per compound per track
+Calculate optimal stint lengths per compound
+
+Section 3: Pit Stop Analysis
+
+Calculate average pit stop time loss per track
+Identify best lap windows to pit based on track position and traffic
+Merge pit stop data with lap data
+
+Section 4: Safety Car Probability
+
+Calculate safety car deployment probability per track
+Calculate average safety car duration
+Model how safety car affects optimal pit window
+
+Section 5: Weather Integration
+
+Merge track temperature and rainfall data with lap data
+Calculate how temperature affects degradation rate per compound
+Model wet weather compound switches (intermediate and wet tires)
+Feed weather adjusted inputs into the optimizer
+
+Section 6 & 1: MILP Optimizer
+
+Build the optimization model using ML
+Takes outputs from Sections 2, 3, 4, and 5 as inputs
+Runs strategy optimization for any given track
+Outputs optimal compound sequence and stint lengths
