@@ -1,7 +1,7 @@
 Goal for the code 
 Section 1:Aarnav(Data Cleaning is finished)(Will do the visualization at the end)
 Section 2:Drish
-Section 3:
+Section 3:Kush
 Section 4:
 Section 5:
 Section 6:
